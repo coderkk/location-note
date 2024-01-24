@@ -20,7 +20,7 @@ export default defineNuxtConfig({
       description: appDescription,
       theme_color: "#1867c0",
       background_color: "#1867c0",
-      "screenshots": [{
+      screenshots: [{
           "src": "pwa-512x512.png",
           "sizes": "512x512",
           "type": "image/png",
