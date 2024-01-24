@@ -4,12 +4,12 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "build-pwa": "pwa-assets-generator && nuxt build",
+    "build-pwa": "npx pwa-asset-generator && nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "generate-pwa-assets": "pwa-assets-generator"
+    "generate-pwa-assets": "npx pwa-asset-generator"
   },
   "devDependencies": {
     "@vite-pwa/assets-generator": "^0.2.3",
@@ -22,7 +22,6 @@
     "@appwrite.io/pink": "^0.3.0",
     "@pinia/nuxt": "^0.5.1",
     "appwrite": "^13.0.1",
-    "pinia": "^2.1.7",
-    "sharp": "^0.33.2"
+    "pinia": "^2.1.7"
   }
 }
