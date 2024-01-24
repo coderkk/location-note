@@ -5,6 +5,7 @@ import "@appwrite.io/pink-icons";
 
 <template>
   <div>
+    <VitePwaManifest />
     <NuxtLayout>
       <Navbar />
       <NuxtPage />
