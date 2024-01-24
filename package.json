@@ -4,12 +4,11 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "build-pwa": "npx pwa-asset-generator && nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "generate-pwa-assets": "npx pwa-asset-generator"
+    "generate-pwa-assets": "pwa-asset-generator"
   },
   "devDependencies": {
     "@vite-pwa/assets-generator": "^0.2.3",
