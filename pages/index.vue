@@ -6,9 +6,10 @@ const user = useUserSession();
 <template>
   <div class="u-max-width-650" style="margin-inline: auto;">
     <!-- Idea form component for logged in users -->
+    <NotesList />
+    
     <section v-if="user.current.value" class="card u-margin-32">
       <NotesForm />
-      <NotesList />
     </section>
 
     <section v-else class="card u-margin-32">
